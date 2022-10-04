@@ -5,12 +5,12 @@
 #   ./build_mapl.sh <MAPL_VERSION> <INSTALL_PREFIX>
 #
 #   DEFAULTS:
-#    MAPL_VERSION   = v2.22.0
+#    MAPL_VERSION   = v2.23.1
 #    INSTALL_PREFIX = $PWD/INSTALL
 
 set -eux
 
-MAPL_VERSION=${1:-"v2.22.0"}
+MAPL_VERSION=${1:-"v2.23.1"}
 INSTALL_PREFIX=${2:-"$PWD/INSTALL"}
 
 # Purge stale clone
